@@ -77,16 +77,13 @@ const Footer: React.FC = () => {
             </div>
             <div className={styles.row}>
                 <div className={styles.column}>
-                    
                     <p className={styles.logo}>Created By Hack4Impact UTK</p>
                 </div>
                 <div className={styles.column}>
-                    <p className={styles.logo}>MindVersity</p>
-                    
+                    <p className={styles.logo}>MindVersity</p>                 
                 </div>
             </div>
         </div>
     );
 };
 export default Footer;
-
