@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
             <div className={styles.wrapper}>
                 <div className={styles.row}>
                     <div className={styles.column}>
-                        <p className={styles.centeredTitle}>We&apos;d Love To Hear From You</p>
+                        <p className={styles.title}>We&apos;d Love To Hear From You</p>
                         <Link href="/">
                             <span className={styles.link}>Contact Us</span>
                         </Link>
@@ -65,16 +65,22 @@ const Footer: React.FC = () => {
                             </Link>
                         </span>
                     </div>
+                    <div className={styles.column}>
+                        <p className={styles.centeredTitle}>Admin</p>
+                        <Link href="/portal">
+                                <a className={styles.link}>
+                                    Admin Login
+                                </a>
+                        </Link> 
+                    </div>
                 </div>
             </div>
             <div className={styles.row}>
                 <div className={styles.column}>
-                    <Link href="/portal">
-                        <span className={styles.link}>Log In</span>
-                    </Link>
+                    <p className={styles.logo}>Created By Hack4Impact UTK</p>
                 </div>
                 <div className={styles.column}>
-                    <p className={styles.logo}>MindVersity</p>
+                    <p className={styles.logo}>MindVersity</p>                 
                 </div>
             </div>
         </div>
